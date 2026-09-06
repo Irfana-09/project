@@ -1,72 +1,21 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6ff;
-    color: #222;
-    padding: 30px;
-}
-
-h1 {
+    font-family: Arial;
     text-align: center;
-    color: #5b5bd6;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    background-color: lightgray;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-}
-
-.task {
-    background: white;
-    padding: 18px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px #ddd;
-}
-
-.task h3 {
-    color: #333;
-    margin-bottom: 8px;
-}
-
-.task p {
-    color: #666;
-    margin-bottom: 10px;
+input {
+    padding: 10px;
+    width: 250px;
 }
 
 button {
-    background: #5b5bd6;
-    color: white;
-    border: none;
-    padding: 9px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #4444b8;
-}
-
-.completed {
-    color: green;
-    font-weight: bold;
-}
-
-.pending {
-    color: orange;
-    font-weight: bold;
-}
-
-input, select {
     padding: 10px;
-    width: 100%;
-    margin: 8px 0 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    margin-left: 5px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
 }
