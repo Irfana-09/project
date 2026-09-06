@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Student Task Manager</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Student Task Manager</h1>
+    <div class="container">
 
-    <input type="text" id="taskInput" placeholder="Enter a task">
+        <header>
+            <h1>📚 Student Task Manager</h1>
+            <p>Organize your tasks and stay productive!</p>
+        </header>
 
-    <button onclick="addTask()">Add Task</button>
+        <div class="task-box">
 
-    <ul id="taskList"></ul>
+            <input 
+                type="text" 
+                id="taskInput" 
+                placeholder="✏️ Enter your task..."
+            >
+
+            <button onclick="addTask()">➕ Add Task</button>
+
+        </div>
+
+        <h2>My Tasks</h2>
+
+        <ul id="taskList">
+            <!-- Tasks will appear here -->
+        </ul>
+
+    </div>
 
     <script src="script.js"></script>
 
